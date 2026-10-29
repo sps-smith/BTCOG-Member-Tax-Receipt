@@ -1,0 +1,17 @@
+node_modules/
+lib/
+lib-commonjs/
+dist/
+temp/
+release/
+sharepoint/solution/*.sppkg
+sharepoint/solution/debug/
+jest-output/
+.heft/
+.local-runtime/
+.pnpm-store/
+.pnpm-cache/
+.pnpm-state/
+*.log
+tests/.compiled/
+.vscode/*.log

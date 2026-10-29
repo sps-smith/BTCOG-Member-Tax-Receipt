@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "f2c2b1ba-cbe7-4be6-9384-e96763eb8c06",
+  "alias": "MemberContributionsTaxReceiptWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "SharePointFullPage"],
+  "supportsThemeVariants": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
+    "group": { "default": "Advanced" },
+    "title": { "default": "Member Contributions Tax Receipt" },
+    "description": { "default": "Generate member contributions tax receipts" },
+    "officeFabricIconFontName": "Money",
+    "properties": {
+      "siteUrl": "https://btcogca.sharepoint.com/sites/finance",
+      "revenueList": "Revenue Transactions",
+      "membersList": "Members",
+      "contributionsList": "Member Contributions",
+      "jobsList": "Contribution Generation Jobs",
+      "rangesList": "Receipt Number Ranges",
+      "assignmentsList": "Receipt Number Assignments",
+      "transactionDateField": "field_3",
+      "transactionAmountField": "field_4",
+      "transactionMemberField": "MemberName",
+      "memberNameField": "Title",
+      "currency": "CAD",
+      "sourceMappingVersion": 1
+    }
+  }]
+}

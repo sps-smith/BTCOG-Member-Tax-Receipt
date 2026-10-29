@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "btcog-member-contributions-tax-receipt-client-side-solution",
+    "id": "fbcd81e4-0c8a-417f-b364-c037897bd893",
+    "version": "1.0.0.11",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Triumphant Church of God",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Annual member contributions and printable receipts"
+      },
+      "longDescription": {
+        "default": "Generate annual totals from Revenue Transactions for contributing Members and print individual contribution receipts."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "btcog-member-contributions-tax-receit Feature",
+        "description": "The feature that activates elements of the btcog-member-contributions solution.",
+        "id": "d69703a1-2082-4f01-a5fc-af358876938d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/btcog-member-contributions.sppkg"
+  }
+}

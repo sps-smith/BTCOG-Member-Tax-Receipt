@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "btcog-member-contributions",
+    "environment": "spo",
+    "isDomainIsolated": false,
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "MemberContributions",
+    "componentDescription": "Generate annual member contributions and receipts",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "btcog-member-contributions",
+    "libraryId": "fbcd81e4-0c8a-417f-b364-c037897bd893",
+    "packageManager": "npm",
+    "solutionShortDescription": "btcog-member-contributions description",
+    "skipFeatureDeployment": true
+  }
+}
